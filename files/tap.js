@@ -6,6 +6,6 @@ function write(id, text, speed){
 			return clearInterval(interval);
 		};
 		ele.innerHTML += txt.shift();
-	}, speed != undefined ? speed : 5);
+	}, speed != undefined ? speed : 100);
 	return false;
 };
